@@ -3,8 +3,8 @@
 }
 
 .div-com-imagem {
-    width: 30px;
-    height: 30px;
+    width: 150px;
+    height: 150px;
     background-image: var(--imagem-fundo);
     background-size: cover;
     background-position: center;
