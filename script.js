@@ -4,18 +4,18 @@ window.addEventListener("keydown",function(event){
     var tecla = event.keyCode
     if ( tecla == "68"){
         x = x + 10
-        this.document.getElementById("--imagem-fundo").style.left=x+"px"
+        this.document.getElementById(".div-com-imagem").style.left=x+"px"
     }
     if ( tecla == "87"){
         y = y - 10
-        this.document.getElementById("--imagem-fundo").style.top=y+"px"
+        this.document.getElementById(".div-com-imagem").style.top=y+"px"
     }
     if ( tecla == "83"){
         y = y + 10
-        this.document.getElementById("--imagem-fundo").style.top=y+"px"
+        this.document.getElementById(".div-com-imagem").style.top=y+"px"
     }
     if ( tecla == "65"){
         x = x - 10
-        this.document.getElementById("--imagem-fundo").style.left=x+"px"
+        this.document.getElementById(".div-com-imagem").style.left=x+"px"
     }
 })
